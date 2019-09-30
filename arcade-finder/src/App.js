@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Landing from './/components/LandingPage/landingpage'
+import Landing from './/components/LandingPage/landingpage';
+import Footer from './/components/Footer/footer'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
        
        <Landing/>
+       <Footer/>
         
       </header>
     </div>
