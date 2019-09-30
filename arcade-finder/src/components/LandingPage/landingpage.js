@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import LogoComponent from '../ImageComponents/Logo'
 
 
 class Landing extends Component {
     render() {
         return (
             <div>
-                <p>Welcome to Arcade Finder!</p><br/>
+                <LogoComponent/>
                 <p>Under Construction</p>
             </div>
         )
