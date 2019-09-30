@@ -1,4 +1,4 @@
 [build]
   command = "npm run build"
-  publish = "arcade-finder/build"
+  publish = "arcade-finder"
   base = "arcade-finder"
