@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import LogoComponent from '../ImageComponents/Logo'
+import Footer from '../Footer/footer'
+
 
 
 class Landing extends Component {
@@ -8,6 +10,7 @@ class Landing extends Component {
             <div>
                 <LogoComponent/>
                 <p>Under Construction</p>
+                <Footer/>
             </div>
         )
     }
